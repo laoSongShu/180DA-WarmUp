@@ -22,6 +22,7 @@ def find_histogram(clt):
     hist /= hist.sum()
     
     return hist
+
 def plot_colors2(hist, centroids):
     bar = np.zeros((50, 300, 3), dtype="uint8")
     startX = 0
